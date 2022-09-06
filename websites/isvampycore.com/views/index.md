@@ -2,7 +2,7 @@
 layout: layout.njk
 ---
 
-# YES! (so's Veight)
+# YES! (and so is Veight)
 
 ## Have a happy and productive water-favored [guild war](https://isthegrindover.com) with your pal Vampy 😌
 
