@@ -1,0 +1,93 @@
+---
+title: Is Vampy Core?
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>{{ title }}</title>
+
+    <meta
+      name="description"
+      content="A site that answers the eternal question on everyone's mind."
+    />
+    <meta property="og:title" content="Is Vampy Core?" />
+    <meta
+      property="og:description"
+      content="A site that answers the eternal question on everyone's mind."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/vampy.png" />
+    <meta
+      property="twitter:image"
+      content="https://isvampycore.com/images/vampy.png"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@eleeleth" />
+    <meta name="twitter:title" content="Is Vampy Core?" />
+    <meta
+      name="twitter:description"
+      content="A site that answers the eternal question on everyone's mind."
+    />
+    <link rel="shortcut icon" href="/images/icon-192x192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="/images/icon-192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="256x256"
+      href="/images/icon-256x256.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="384x384"
+      href="/images/icon-384x384.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="/images/icon-512x512.png"
+    />
+  </head>
+  <body>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLTJND4WR0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PLTJND4WR0');
+    </script>
+    <main>
+      {{ content | safe }}
+      <noscript>
+        <p><img src="/images/vampy.png"></p>
+      </noscript>
+    </main>
+
+    <script>
+      function get_random (list) {
+        return list[Math.floor((Math.random()*list.length))];
+      }
+      var imgList = document.querySelectorAll('.img-hidden')
+      get_random(imgList).classList.remove('img-hidden')
+    </script>
+  </body>
+</html>
