@@ -85,7 +85,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["kleur", "npm:4.1.5"],\
             ["liquidjs", "npm:9.42.0"],\
             ["lodash", "npm:4.17.21"],\
-            ["luxon", "npm:2.5.0"],\
+            ["luxon", "npm:2.5.2"],\
             ["markdown-it", "npm:13.0.1"],\
             ["minimist", "npm:1.2.6"],\
             ["moo", "npm:0.5.1"],\
@@ -1571,10 +1571,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["luxon", [\
-        ["npm:2.5.0", {\
-          "packageLocation": "./.yarn/cache/luxon-npm-2.5.0-3e7040fb3c-2fccce6bbd.zip/node_modules/luxon/",\
+        ["npm:2.5.2", {\
+          "packageLocation": "./.yarn/cache/luxon-npm-2.5.2-d4f55f89d0-d8b671ffd2.zip/node_modules/luxon/",\
           "packageDependencies": [\
-            ["luxon", "npm:2.5.0"]\
+            ["luxon", "npm:2.5.2"]\
           ],\
           "linkType": "HARD"\
         }]\
