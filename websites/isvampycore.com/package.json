@@ -12,9 +12,9 @@
   "author": "Anthony Clever <anthonyclever@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "2.0.0-canary.12",
+    "@11ty/eleventy": "2.0.1",
     "markdown-it": "^13.0.1",
-    "markdown-it-attrs": "^4.1.4",
-    "prettier": "~2.7.1"
+    "markdown-it-attrs": "^4.1.6",
+    "prettier": "~2.8.7"
   }
 }
