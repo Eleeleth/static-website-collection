@@ -72,7 +72,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cross-spawn", "npm:7.0.3"],\
             ["debug", "virtual:ac3d8e680759ce54399273724d44e041d6c9b73454d191d411a8c44bb27e22f02aaf6ed9d3ad0ac1c298eac4833cff369c9c7b84c573016112c4f84be2cd8543#npm:4.3.4"],\
             ["dependency-graph", "npm:0.11.0"],\
-            ["ejs", "npm:3.1.9"],\
+            ["ejs", "npm:3.1.10"],\
             ["fast-glob", "npm:3.2.12"],\
             ["graceful-fs", "npm:4.2.11"],\
             ["gray-matter", "npm:4.0.3"],\
@@ -924,10 +924,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ejs", [\
-        ["npm:3.1.9", {\
-          "packageLocation": "./.yarn/cache/ejs-npm-3.1.9-e201b2088c-af6f10eb81.zip/node_modules/ejs/",\
+        ["npm:3.1.10", {\
+          "packageLocation": "./.yarn/cache/ejs-npm-3.1.10-4e8cf4bdc1-ce90637e9c.zip/node_modules/ejs/",\
           "packageDependencies": [\
-            ["ejs", "npm:3.1.9"],\
+            ["ejs", "npm:3.1.10"],\
             ["jake", "npm:10.8.5"]\
           ],\
           "linkType": "HARD"\
